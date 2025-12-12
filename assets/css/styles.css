@@ -1,0 +1,18 @@
+    .boton-rosa {
+        background-color: #ec4899 !important; /* rosa */
+        color: white !important;
+        padding: 0.75rem 1.5rem !important;
+        border-radius: 0.75rem !important;
+        font-weight: 600 !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1) !important;
+        transition: 0.2s ease-in-out !important;
+        display: inline-block;
+        text-align: center;
+    }
+    .boton-rosa:hover {
+        background-color: #db2777 !important; /* rosa más fuerte */
+    }
+    .boton-rosa:active,
+    .boton-rosa:focus {
+        background-color: #be185d !important; /* rosa oscuro */
+    }
